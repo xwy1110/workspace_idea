@@ -9,6 +9,8 @@
  */
 package com.jk.xwy.controller;
 
+import com.jk.xwy.service.BookService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 /**
@@ -20,7 +22,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class Book {
-  
+        @Autowired
         private BookService bookService;
 
 
