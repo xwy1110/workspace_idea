@@ -20,7 +20,8 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class Book {
-
+  
+        private BookService bookService;
 
 
 }
